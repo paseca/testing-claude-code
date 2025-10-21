@@ -1,0 +1,15 @@
+.calendar-page {
+  animation: fadeIn 0.3s ease;
+}
+
+.calendar-placeholder {
+  background-color: var(--bg-secondary);
+  border-radius: 8px;
+  padding: 4rem 2rem;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
