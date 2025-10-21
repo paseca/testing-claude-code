@@ -5,7 +5,7 @@
 ### Authentication
 
 #### POST /api/auth/register
-Registrar nuevo usuario
+Register a new user
 
 **Request:**
 ```json
@@ -17,7 +17,7 @@ Registrar nuevo usuario
 ```
 
 #### POST /api/auth/login
-Iniciar sesión
+Log in
 
 **Request:**
 ```json
@@ -30,54 +30,54 @@ Iniciar sesión
 ### Routines
 
 #### GET /api/routines
-Obtener todas las rutinas del usuario
+Get all user routines
 
 #### POST /api/routines
-Crear nueva rutina
+Create a new routine
 
 **Request:**
 ```json
 {
-  "name": "Rutina de Fuerza",
-  "description": "Enfoque en ejercicios compuestos",
+  "name": "Strength Routine",
+  "description": "Focus on compound exercises",
   "days": ["Monday", "Wednesday", "Friday"]
 }
 ```
 
 #### GET /api/routines/:id
-Obtener una rutina específica
+Get a specific routine
 
 #### PUT /api/routines/:id
-Actualizar una rutina
+Update a routine
 
 #### DELETE /api/routines/:id
-Eliminar una rutina
+Delete a routine
 
 ### Exercises
 
 #### GET /api/exercises
-Obtener todos los ejercicios
+Get all exercises
 
 #### POST /api/exercises
-Crear nuevo ejercicio
+Create a new exercise
 
 **Request:**
 ```json
 {
-  "name": "Press de Banca",
-  "muscleGroup": "Pecho",
-  "equipment": "Barra",
-  "description": "Ejercicio compuesto para pecho"
+  "name": "Bench Press",
+  "muscleGroup": "Chest",
+  "equipment": "Barbell",
+  "description": "Compound exercise for chest"
 }
 ```
 
 ### Workouts
 
 #### GET /api/workouts
-Obtener historial de entrenamientos
+Get workout history
 
 #### POST /api/workouts
-Registrar un entrenamiento
+Log a workout
 
 **Request:**
 ```json

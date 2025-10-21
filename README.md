@@ -1,80 +1,80 @@
 # Gym Routines App
 
-Aplicación para crear y gestionar rutinas de gimnasio personalizadas.
+Application to create and manage personalized gym workout routines.
 
-## Estructura del Proyecto
+## Project Structure
 
 ```
 .
 ├── backend/                # API Backend
 │   ├── src/
-│   │   ├── controllers/   # Controladores de rutas
-│   │   ├── models/        # Modelos de datos
-│   │   ├── routes/        # Definición de rutas
-│   │   ├── services/      # Lógica de negocio
-│   │   ├── middleware/    # Middleware personalizado
-│   │   ├── config/        # Configuración
-│   │   └── utils/         # Utilidades
-│   └── tests/             # Tests del backend
+│   │   ├── controllers/   # Route controllers
+│   │   ├── models/        # Data models
+│   │   ├── routes/        # Route definitions
+│   │   ├── services/      # Business logic
+│   │   ├── middleware/    # Custom middleware
+│   │   ├── config/        # Configuration
+│   │   └── utils/         # Utilities
+│   └── tests/             # Backend tests
 │
-├── frontend/              # Aplicación Frontend
+├── frontend/              # Frontend Application
 │   ├── src/
-│   │   ├── components/    # Componentes React
-│   │   ├── pages/         # Páginas/Vistas
-│   │   ├── services/      # Servicios API
+│   │   ├── components/    # React components
+│   │   ├── pages/         # Pages/Views
+│   │   ├── services/      # API services
 │   │   ├── hooks/         # Custom hooks
 │   │   ├── context/       # Context API
-│   │   ├── utils/         # Utilidades
-│   │   └── assets/        # Recursos estáticos
-│   └── public/            # Archivos públicos
+│   │   ├── utils/         # Utilities
+│   │   └── assets/        # Static resources
+│   └── public/            # Public files
 │
-├── database/              # Base de datos
-│   ├── migrations/        # Migraciones
-│   └── seeds/             # Datos de prueba
+├── database/              # Database
+│   ├── migrations/        # Migrations
+│   └── seeds/             # Test data
 │
-└── docs/                  # Documentación
+└── docs/                  # Documentation
 
 ```
 
-## Características Principales
+## Key Features
 
-- Crear y personalizar rutinas de entrenamiento
-- Gestión de ejercicios por grupos musculares
-- Seguimiento de progreso
-- Planificación semanal/mensual
-- Historial de entrenamientos
+- Create and customize workout routines
+- Exercise management by muscle groups
+- Progress tracking
+- Weekly/monthly planning
+- Workout history
 
-## Tecnologías
+## Technologies
 
 - **Backend**: Node.js + Express + TypeScript
 - **Frontend**: React + TypeScript
-- **Base de datos**: PostgreSQL/MongoDB
-- **Autenticación**: JWT
+- **Database**: PostgreSQL/MongoDB
+- **Authentication**: JWT
 
-## Instalación
+## Installation
 
 ```bash
-# Instalar dependencias del backend
+# Install backend dependencies
 cd backend
 npm install
 
-# Instalar dependencias del frontend
+# Install frontend dependencies
 cd frontend
 npm install
 ```
 
-## Desarrollo
+## Development
 
 ```bash
-# Ejecutar backend
+# Run backend
 cd backend
 npm run dev
 
-# Ejecutar frontend
+# Run frontend
 cd frontend
 npm run dev
 ```
 
-## Licencia
+## License
 
 MIT

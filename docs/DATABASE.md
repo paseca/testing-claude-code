@@ -79,9 +79,9 @@ CREATE TABLE workout_exercises (
 
 ## Relationships
 
-- Un usuario puede tener múltiples rutinas
-- Una rutina pertenece a un usuario
-- Una rutina puede incluir múltiples ejercicios
-- Un ejercicio puede estar en múltiples rutinas
-- Un workout registra la ejecución de una rutina en una fecha específica
-- workout_exercises registra los detalles de cada serie realizada
+- A user can have multiple routines
+- A routine belongs to a user
+- A routine can include multiple exercises
+- An exercise can be in multiple routines
+- A workout records the execution of a routine on a specific date
+- workout_exercises records the details of each set performed
